@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.env
+firebase-debug.log*
+firestore-debug.log*
+ui-debug.log*
+
+# Tokens and Credentials
+*token*
+*secret*
+*credential*
+google-services.json
+GoogleService-Info.plist
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
