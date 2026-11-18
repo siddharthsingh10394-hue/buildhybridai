@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ScriptMatch Hybrid",
+  "version": "1.0.0",
+  "description": "ScriptMatch Hybrid - Freelance scriptwriter job scoring & outreach via Firebase AI Logic Hybrid Inference",
+  "icons": {
+    "48": "favicon.svg"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "favicon.svg"
+  },
+  "permissions": [
+    "storage"
+  ]
+}
