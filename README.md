@@ -43,6 +43,44 @@ flowchart TD
 
 ---
 
+## 💎 Liquid Glass UI/UX Design System
+
+ScriptMatch Hybrid features a cutting-edge **Liquid Glass (Liquid Glassmorphism)** user interface crafted for screenwriters and creatives. The design system combines multi-layered depth, dynamic optical refraction, fluid ambient illumination, and tactile micro-interactions that elevate technical hybrid telemetry into an effortless, cinematic experience.
+
+### 🔮 Visual Language & Design Tokens
+
+| Design Token | CSS Implementation | Purpose & Aesthetic Effect |
+| :--- | :--- | :--- |
+| **Multi-Layered Backdrop Filter** | `backdrop-filter: blur(24px) saturate(180%);` | Produces ultra-pure frosted glass translucency that softly diffuses background elements while maximizing foreground text legibility. |
+| **Specular Borders** | `border: 1px solid rgba(255, 255, 255, 0.12);` with gradient edges | Simulates razor-sharp optical light refraction along panel perimeters, delivering palpable physical depth. |
+| **Caustic Highlights** | `linear-gradient(135deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0.02) 100%)` | Emulates natural fluid caustics and directional lens glare across active glass containers. |
+| **Iridescent Ambient Glow** | `box-shadow: 0 0 24px rgba(6, 182, 212, 0.25), 0 0 40px rgba(245, 158, 11, 0.15);` | Casts radiant cyan (On-Device), deep violet (Cloud), and warm amber (Score) halos around interactive telemetry elements. |
+| **Fluid Animated Background** | `.liquid-orb`, `.liquid-mesh` floating keyframes | Organic, slowly undulating ambient gradient meshes that provide subtle living motion beneath translucent panes. |
+
+---
+
+### 🎛️ Interactive Components & Architecture
+
+#### 1. Floating Glass Navbar
+- **Translucent Dock Navigation**: Fixed top header with high-blur frosted glass, specular top edge highlights, and an iridescent bottom separator.
+- **Pulsing Hybrid Telemetry Badges**: Live state pills for **⚡ Gemini Nano (On-Device)**, **☁️ Gemini 2.5 Flash (Cloud)**, and **✈️ Simulated Offline Mode**, equipped with liquid pulsing dot indicators (`.animate-pulse-subtle`).
+- **Routing Mode Switcher**: Translucent segmented pill toggle enabling seamless switching between `Auto (Hybrid)`, `On-Device Only`, and `Cloud Only` routing.
+- **Frosted Settings Drawer**: Quick modal for configuring the 1,200-character boundary threshold and clearing evaluation history.
+
+#### 2. Responsive Script Workspace & Preset Chips
+- **Liquid Glass Container**: Curved container with specular highlights and deep dimensional shadowing.
+- **Instant Preset Chips**: Floating interactive pills with liquid glow hover transitions for one-click loading of sample briefs (*Short Confidential Pilot*, *World Bible Series Pitch*, *High-Concept Thriller*).
+- **Proximity Character Counter**: Real-time counter showing proximity to the 1,200-character hybrid boundary, giving writers instant visual feedback on whether their brief routes to Nano or Flash.
+- **Collapsible Writer Profile Accordion**: Translucent drawer allowing scriptwriters to specify their primary genre, narrative tone, and experience tier for hyper-targeted matching.
+
+#### 3. Liquid Telemetry Dashboard
+- **Radial Score Meter**: Conic liquid progress dial with animated score rings and golden amber caustic highlights.
+- **Structured Assessment Panels**: Translucent frosted cards categorizing **Match Verdict**, **Core Strengths**, **Weaknesses & Blindspots**, and **Strategic Recommendations**.
+- **Collapsible Outreach Pitch Card**: Liquid glass card displaying bespoke pitch copy with one-click clipboard copying and animated success badge feedback.
+- **Real-Time Telemetry Strip**: Displays execution latency in milliseconds (`XXms`), exact inference provider source tag, and App Check security verification status.
+
+---
+
 ## 💻 How Firebase AI Logic is Used at Runtime
 
 ScriptMatch Hybrid imports and executes the official `firebase/ai` SDK:
@@ -148,7 +186,7 @@ The high-level domain idea of assisting freelance writers (ScriptMatch AI) was c
 3. **Threshold-Based Routing Engine**: Designed automated routing logic based on character limits (1,200 chars) and network connectivity states.
 4. **Inference Source Tagging**: Implemented runtime badge displays (`on_device` vs `in_cloud`) with live execution latency timers.
 5. **Simulated Flight / Offline Mode**: Built interactive offline toggle demonstrating zero-network on-device execution.
-6. **Modern Dark Cinematic UI**: Built responsive React + Vite interface with compatibility score circle, project specification cards, and one-click proposal clipboard export.
+6. **Liquid Glass UI/UX Design System**: Built a modern cinematic Liquid Glass interface featuring multi-layered backdrop filters (`blur(24px) saturate(180%)`), specular border gradients, caustic highlights, iridescent ambient glow orbs, floating glass navbar, dynamic telemetry score gauges, and responsive preset chips.
 7. **Automated Test Suite**: Authored routing and resilient JSON schema fallback unit tests.
 
 ---
